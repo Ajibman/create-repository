@@ -28,7 +28,7 @@ Installation
 
 Usage
 
-Start the server locally:
+May Start the server locally:
 
 npm start
 
