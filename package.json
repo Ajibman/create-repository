@@ -1,20 +1,18 @@
-{
-  "name": "create-repository",
-  "version": "1.3.0",
-  "description": "Easily set up a new github repository. Reads the name/description from the package.json file if it's present. Sets origin upstream if it's not already set.",
-  "dependencies": {
-    "ghauth": "^2.0.0",
-    "github": "^0.2.3",
-    "minimist": "^1.1.0"
+ {
+  "name": "quantumtrader-ai-server",
+  "version": "1.0.0",
+  "description": "Backend server for QuantumTrader-AI",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
   },
-  "devDependencies": {},
-  "bin": {
-    "create-repository": "index.js"
-  },
-  "author": "Tobias Baunbæk <freeall@gmail.com>",
+  "keywords": [],
+  "author": "Ajibulu Olagoke",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freeall/create-repository.git"
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
   }
-}
+ }
