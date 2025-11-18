@@ -28,8 +28,6 @@ Installation
 
 Usage
 
-May Start the server locally:
-
 npm start
 
 By default, the server listens on the port specified in `.env` or 3000.
